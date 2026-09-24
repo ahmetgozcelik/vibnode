@@ -1,0 +1,30 @@
+# IDE / editor
+.vscode/
+.idea/
+
+# Build outputs
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# OS
+.DS_Store
+Thumbs.db
